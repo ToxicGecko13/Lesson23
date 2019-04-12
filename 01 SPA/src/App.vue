@@ -10,10 +10,12 @@
     </header>
 
 
+    <router-view/>
+
+
     <footer>
       <em>(c) 2019 copyright <a href="https://mhintegrity.com">MHIntegrity</a></em>
     </footer>
-    <router-view/>
   </div>
 </template>
 
@@ -37,8 +39,6 @@
   }
   header nav {
     list-style-type: none;
-  }
-  header nav {
     margin: 6px;
   }
   footer {
